@@ -1,0 +1,61 @@
+# Build artifacts
+*.o
+*.ko
+*.mod.c
+*.symvers
+*.order
+*.cmd
+*.mod
+*.markers
+
+# Kernel build directory
+*.tmp_versions/
+Module.symvers
+modules.order
+modules.builtin
+
+# Backups and temp files
+*~
+*.swp
+*.swo
+*.bak
+
+# Editor specific
+.vscode/
+.idea/
+*.user
+*.log
+
+# Cscope and ctags
+cscope.*
+tags
+TAGS
+
+# Output from make
+*.out
+*.a
+*.so
+
+# Coverage/profiling tools
+*.gcno
+*.gcda
+*.gcov
+
+# Autotools
+config.log
+config.status
+configure
+autom4te.cache/
+Makefile.in
+aclocal.m4
+ltmain.sh
+libtool
+compile
+depcomp
+missing
+install-sh
+m4/
+
+# Other
+.DS_Store
+

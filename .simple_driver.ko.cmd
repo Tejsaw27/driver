@@ -1,1 +1,0 @@
-cmd_/home/tejsaw/drivers/simple_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/tejsaw/drivers/simple_driver.ko /home/tejsaw/drivers/simple_driver.o /home/tejsaw/drivers/simple_driver.mod.o;  true
